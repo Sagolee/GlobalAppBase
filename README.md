@@ -1,0 +1,2 @@
+# GlobalAppBase
+GlobalApp
