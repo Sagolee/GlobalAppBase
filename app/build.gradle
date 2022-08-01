@@ -36,4 +36,18 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //firebase平台
+    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-crashlytics-ndk'
+    implementation 'com.google.firebase:firebase-messaging'
+
+    implementation 'com.appsflyer:af-android-sdk:6.0.0'
+
+    //谷歌授权（登录）
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+
+    implementation 'com.facebook.android:facebook-common:[8,9)'
 }

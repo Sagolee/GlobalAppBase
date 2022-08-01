@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">GlobalBase</string>
+
+    <!--AppSFlyer-->
+    <string name="appsflyer_af_dev_key">Lyudz3ftAsv7u6WRuVUWhK</string>
 </resources>
